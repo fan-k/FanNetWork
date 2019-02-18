@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "FanRootController.h"
 
 @interface AppDelegate ()
 
@@ -54,7 +54,7 @@
 }
 
 - (void)initLuanchView:(NSDictionary *)launchOptions{
-    ViewController * rootVc = [ViewController new];
+    FanRootController * rootVc = [FanRootController new];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

@@ -35,13 +35,13 @@
 		6A0C23472219A63600DDBF81 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C23462219A63600DDBF81 /* UIColor+HexString.m */; };
 		6A0C234B2219A7D500DDBF81 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C234A2219A7D500DDBF81 /* UICKeyChainStore.m */; };
 		6A8663612219A1BB00DFCE27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8663602219A1BB00DFCE27 /* AppDelegate.m */; };
-		6A8663642219A1BB00DFCE27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8663632219A1BB00DFCE27 /* ViewController.m */; };
 		6A8663672219A1BB00DFCE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8663652219A1BB00DFCE27 /* Main.storyboard */; };
 		6A8663692219A1BE00DFCE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8663682219A1BE00DFCE27 /* Assets.xcassets */; };
 		6A86636C2219A1BE00DFCE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A86636A2219A1BE00DFCE27 /* LaunchScreen.storyboard */; };
 		6A86636F2219A1BE00DFCE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A86636E2219A1BE00DFCE27 /* main.m */; };
 		6A8663792219A1BE00DFCE27 /* FanProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8663782219A1BE00DFCE27 /* FanProductTests.m */; };
 		6A8663842219A1BE00DFCE27 /* FanProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8663832219A1BE00DFCE27 /* FanProductUITests.m */; };
+		6AF73EEC221A54A800E098AC /* FanRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF73EEB221A54A800E098AC /* FanRootController.m */; };
 		6C6DDFDC3464BCF4DBE4D5D6 /* libPods-FanProductUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D19A0CF6B6937FDD023 /* libPods-FanProductUITests.a */; };
 		F5F91C06B0B0180AD22CBC29 /* libPods-FanProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39237C1243120D79AA165188 /* libPods-FanProduct.a */; };
 /* End PBXBuildFile section */
@@ -136,8 +136,6 @@
 		6A86635C2219A1BB00DFCE27 /* FanProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A86635F2219A1BB00DFCE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A8663602219A1BB00DFCE27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A8663622219A1BB00DFCE27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6A8663632219A1BB00DFCE27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A8663662219A1BB00DFCE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A8663682219A1BE00DFCE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A86636B2219A1BE00DFCE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -149,6 +147,8 @@
 		6A86637F2219A1BE00DFCE27 /* FanProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8663832219A1BE00DFCE27 /* FanProductUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanProductUITests.m; sourceTree = "<group>"; };
 		6A8663852219A1BE00DFCE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF73EEA221A54A800E098AC /* FanRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanRootController.h; sourceTree = "<group>"; };
+		6AF73EEB221A54A800E098AC /* FanRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanRootController.m; sourceTree = "<group>"; };
 		73EE3FD4F8785F5D8F109410 /* libPods-FanProductTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanProductTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743FC2048BAC410BED957D97 /* Pods-FanProductUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanProductUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanProductUITests/Pods-FanProductUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3E14D19A0CF6B6937FDD023 /* libPods-FanProductUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanProductUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -500,8 +500,8 @@
 				6A0C221F2219A36100DDBF81 /* Fan */,
 				6A86635F2219A1BB00DFCE27 /* AppDelegate.h */,
 				6A8663602219A1BB00DFCE27 /* AppDelegate.m */,
-				6A8663622219A1BB00DFCE27 /* ViewController.h */,
-				6A8663632219A1BB00DFCE27 /* ViewController.m */,
+				6AF73EEA221A54A800E098AC /* FanRootController.h */,
+				6AF73EEB221A54A800E098AC /* FanRootController.m */,
 				6A8663652219A1BB00DFCE27 /* Main.storyboard */,
 				6A8663682219A1BE00DFCE27 /* Assets.xcassets */,
 				6A86636A2219A1BE00DFCE27 /* LaunchScreen.storyboard */,
@@ -829,7 +829,6 @@
 			files = (
 				6A0C23002219A36200DDBF81 /* FanRequestTool.m in Sources */,
 				6A0C23012219A36200DDBF81 /* FanRequestItem.m in Sources */,
-				6A8663642219A1BB00DFCE27 /* ViewController.m in Sources */,
 				6A0C233D2219A36300DDBF81 /* FanImageView.m in Sources */,
 				6A0C23132219A36300DDBF81 /* UIViewExt.m in Sources */,
 				6A86636F2219A1BE00DFCE27 /* main.m in Sources */,
@@ -855,6 +854,7 @@
 				6A0C23382219A36300DDBF81 /* FanController.m in Sources */,
 				6A0C230D2219A36300DDBF81 /* UILabel+Category.m in Sources */,
 				6A0C23022219A36200DDBF81 /* FanSize.m in Sources */,
+				6AF73EEC221A54A800E098AC /* FanRootController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
