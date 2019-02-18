@@ -1,7 +1,7 @@
 # FanNetWork
 iOS项目基本框架搭建、包含封装的网络框架、rootscheme
 
-##FanRequestItem 的思想是把网络请求封装为一个请求对象（FanRequestItem）。
+FanRequestItem 的思想是把网络请求封装为一个请求对象（FanRequestItem）。
 网络请求的各种参数为item的属性，通过对属性的设定封装，统一处理请求的参数
 
 item中属性设定
