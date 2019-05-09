@@ -18,6 +18,8 @@
     if (self) {
         self.method = @"POST";
         self.alertMsg = YES;
+         _params = [NSMutableDictionary dictionary];
+        _contentType = @"application/json";
     }return self;
 }
 - (NSInteger)requestFrequency{
@@ -154,10 +156,21 @@
         _publicParams[@"udid"] = [FanSystemTools getUUIDFromServer];
     }return _publicParams;
 }
-- (NSMutableDictionary *)params{
-    if (!_params) {
-        _params = [NSMutableDictionary dictionary];
-    }return _params;
+
+- (void)setParams:(NSMutableDictionary *)params{
+    //设置method
+    NSString *method = DICTION_OBJECT(params, @"item-method");
+    if ([method isNotBlank]) {
+        self.method = method;
+        [params removeObjectForKey:@"item-method"];
+    }
+    //设置contentType
+    NSString *contentType = DICTION_OBJECT(params, @"item-contentType");
+    if ([contentType isNotBlank]) {
+        self.contentType = contentType;
+        [params removeObjectForKey:@"item-contentType"];
+    }
+    _params = params;
 }
 
 @end

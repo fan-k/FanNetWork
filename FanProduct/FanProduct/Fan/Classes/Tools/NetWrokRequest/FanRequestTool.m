@@ -59,6 +59,7 @@
     NSMutableDictionary *params = [NSMutableDictionary new];
     [params addEntriesFromDictionary:item.publicParams];
     [params addEntriesFromDictionary:item.params];
+    
    
     NSMutableURLRequest *request = [[FanRequestTool shareInstance].shareManger.requestSerializer
                                     requestWithMethod:item.method
@@ -66,6 +67,7 @@
                                     parameters:params
                                     error:&reqerror];
     [request setTimeoutInterval:15];
+    [request setValue:item.contentType forHTTPHeaderField:@"Content-Type"];
     item.startDate = (long long)([[NSDate date] timeIntervalSince1970] * 1000);
     item.isdataTask = YES;
     NSURLSessionDataTask *dataTask = [[FanRequestTool shareInstance].shareManger

@@ -20,8 +20,30 @@
     [self setNavTitle:@"导航标题"];
     [self setNavLeftButtonItemWithName:@"返回" selectedName:nil];
     // 网络请求
-    self.params[@"params"] = @"测试";
-    [self requestWithUrl:@"url" loading:YES];
+//    UIImage *image = [UIImage imageNamed:@"111.png"];
+//    NSData *imageData = UIImagePNGRepresentation(image);
+//    self.params[@"pics"] = @[imageData];
+//    self.params[@"activityId"] = @"100001";
+//    self.params[@"status"] = @"0";
+//    self.params[@"retrievePrizeWay"] = @"0";
+//    self.params[@"thirdUserId"] = @"123456789";
+//    self.params[@"qq"] = @"99282992";
+//    self.params[@"email"] = @"xy@sina.com";
+//    self.params[@"prizeId"] = @"22221";
+//    self.params[@"actId"] = @"100001";
+//    self.params[@"phone"] = @"13849391823";
+//
+//    self.params[@"item-method"] = @"POST";
+//    self.params[@"contentType"] = @"application/json";
+//    [self requestWithUrl:@"http://47.104.198.112:8200/acti/prize/way/add" loading:YES];
+    
+    self.params[@"id"] = @"1";
+    self.params[@"status"] = @"0";
+
+    
+    self.params[@"item-method"] = @"PUT";
+//    self.params[@"contentType"] = @"application/json";
+    [self requestWithUrl:@"http://47.104.198.112:8200/acti/prize/way/edit" loading:YES];
     
     //rootscheme
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

@@ -55,6 +55,8 @@ typedef void(^completeBlock)(FanRequestItem *item);
 @property (nonatomic, assign) BOOL isInterval;
 /*唯一id 通过各种拼接成*/
 @property (nonatomic ,copy) NSString *requestID;
+/**contentType  默认application/json*/
+@property (nonatomic ,copy) NSString *contentType;
 /*isCache 查找结果*/
 @property (nonatomic ,assign) BOOL searched;
 /*请求的方式 GET POST  默认POST*/

@@ -41,6 +41,7 @@
 		6A86636F2219A1BE00DFCE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A86636E2219A1BE00DFCE27 /* main.m */; };
 		6A8663792219A1BE00DFCE27 /* FanProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8663782219A1BE00DFCE27 /* FanProductTests.m */; };
 		6A8663842219A1BE00DFCE27 /* FanProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8663832219A1BE00DFCE27 /* FanProductUITests.m */; };
+		6AD662DB2282E41200B883D1 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD662DA2282E41200B883D1 /* 111.png */; };
 		6AF73EEC221A54A800E098AC /* FanRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF73EEB221A54A800E098AC /* FanRootController.m */; };
 		6C6DDFDC3464BCF4DBE4D5D6 /* libPods-FanProductUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D19A0CF6B6937FDD023 /* libPods-FanProductUITests.a */; };
 		F5F91C06B0B0180AD22CBC29 /* libPods-FanProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39237C1243120D79AA165188 /* libPods-FanProduct.a */; };
@@ -147,6 +148,7 @@
 		6A86637F2219A1BE00DFCE27 /* FanProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8663832219A1BE00DFCE27 /* FanProductUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanProductUITests.m; sourceTree = "<group>"; };
 		6A8663852219A1BE00DFCE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD662DA2282E41200B883D1 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 		6AF73EEA221A54A800E098AC /* FanRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanRootController.h; sourceTree = "<group>"; };
 		6AF73EEB221A54A800E098AC /* FanRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanRootController.m; sourceTree = "<group>"; };
 		73EE3FD4F8785F5D8F109410 /* libPods-FanProductTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanProductTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -502,6 +504,7 @@
 				6A8663602219A1BB00DFCE27 /* AppDelegate.m */,
 				6AF73EEA221A54A800E098AC /* FanRootController.h */,
 				6AF73EEB221A54A800E098AC /* FanRootController.m */,
+				6AD662DA2282E41200B883D1 /* 111.png */,
 				6A8663652219A1BB00DFCE27 /* Main.storyboard */,
 				6A8663682219A1BE00DFCE27 /* Assets.xcassets */,
 				6A86636A2219A1BE00DFCE27 /* LaunchScreen.storyboard */,
@@ -655,6 +658,7 @@
 				6A86636C2219A1BE00DFCE27 /* LaunchScreen.storyboard in Resources */,
 				6A8663692219A1BE00DFCE27 /* Assets.xcassets in Resources */,
 				6A0C22FF2219A36200DDBF81 /* README_REQUEST.md in Resources */,
+				6AD662DB2282E41200B883D1 /* 111.png in Resources */,
 				6A8663672219A1BB00DFCE27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
